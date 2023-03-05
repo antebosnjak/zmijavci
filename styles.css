@@ -1,0 +1,269 @@
+/* Postavljanje margina i padinga svih elemeanta na nulu univerzalnim selektorom zvjezica */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+  
+
+/* Postavljanje fonta, prikaza, smještaja i boje za kompletni body */
+body {
+
+
+
+
+
+
+
+
+    height: 100vh;
+  
+
+  padding: 5px;
+    font-family: 'ARIAL', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+background-color: #959d91;
+
+
+background-image:    url(images/zmijavci.PNG);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    object-fit: cover;
+
+
+
+
+
+
+
+  }
+  
+  
+  .card {
+   
+
+height: 100vh;
+
+    display: flex;
+flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    border-radius: 0px;
+
+  }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  .flex-item-left {
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+  }
+
+
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+ 
+
+  /* Klasa za input text unutar login klase (elementa) */
+  .dugme {
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid #fc6630;
+    outline: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+background-color: #2f77a7e7;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  .dugme-ozujak {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid #fc6630;
+    outline: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+background-color: #2fcdbae7;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  .dugme-travanj {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid #fc6630;
+    outline: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+background-color: #303cc3e7;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+  .dugme-svibanj {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid #fc6630;
+    outline: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+background-color: #23a847e7;
+    box-shadow: 0 5px #666666;
+    transform: translateY(4px);
+  }
+
+
+
+  .dugme-lipanj {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid #fc6630;
+    outline: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+background-color: #ca2828e7;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+
+  .dugme-sve {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid #fc6630;
+    outline: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+background-color: #e4d716f1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+
+
+
+  .dugme:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+
+
+
+
+
+
+
+  .slova-dugme {
+    font-size: 25px;
+    font-style: normal;
+    color: aliceblue;
+    
+
+
+  }
