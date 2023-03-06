@@ -87,29 +87,6 @@ flex-wrap: wrap;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
- 
-
   /* Klasa za input text unutar login klase (elementa) */
   .dugme {
     margin-bottom: 25px;
@@ -136,7 +113,7 @@ background-color: #2f77a7e7;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 200px;
+    width: 250px;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -153,11 +130,18 @@ background-color: #2fcdbae7;
   }
 
 
+  .dugme-ozujak:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
   .dugme-travanj {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 200px;
+    width: 250px;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -174,12 +158,19 @@ background-color: #303cc3e7;
   }
 
 
+  .dugme-travanj:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
 
   .dugme-svibanj {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 200px;
+    width: 250px;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -196,12 +187,19 @@ background-color: #23a847e7;
   }
 
 
+  .dugme-svibanj:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
 
   .dugme-lipanj {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 200px;
+    width: 250px;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -219,12 +217,24 @@ background-color: #ca2828e7;
 
 
 
+  .dugme-lipanj:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+
+
+
+
+
 
   .dugme-sve {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 200px;
+    width: 250px;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -245,7 +255,7 @@ background-color: #e4d716f1;
 
 
 
-  .dugme:active {
+  .dugme-sve:active {
     transform: scale(0.98);
     /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
